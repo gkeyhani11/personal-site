@@ -124,8 +124,8 @@ Tabs: `BeNow` `Sentari` `Sero` `Whenwise` (status chip inside each panel).
 > who want it to. Keeping it healthy in production has taught me more than any
 > class I've taken.
 
-Fact line: `Thousands of downloads · Python, Cloud Run, Firebase, Azure OpenAI,
-React Native`
+Fact line: `Thousands of downloads · Python, Google Cloud Run, Compute Engine,
+Firebase, Azure OpenAI, Kraken API, Expo / React Native, TypeScript`
 Links: `App Store ↗` `benowtrader.com ↗`
 Screen: the dashboard (total balance, top assets), per Garret's reference.
 
@@ -138,7 +138,8 @@ Bot Lab.)
 > is mood-adaptive bots: yours can get greedier when the market is fearful,
 > and more careful when everyone else is greedy.
 
-Fact line: `Expo, TypeScript, Firebase`
+Fact line: `Expo / React Native, TypeScript, Firebase, Python on Google Cloud
+Run, Kraken API`
 Links: `sentaritrader.com ↗`
 Screen: the Bot Lab build tab (Sentari Classic template).
 
@@ -149,7 +150,8 @@ Screen: the Bot Lab build tab (Sentari Classic template).
 > by 259 shared test vectors, so the two can never drift apart. That detail
 > makes me happier than it probably should.
 
-Fact line: `Coming for tax season 2027 · SwiftUI, Supabase, Claude, Next.js`
+Fact line: `Coming for tax season 2027 · SwiftUI, Swift tax engine, Supabase
+Edge Functions, Claude API, RevenueCat, Next.js`
 Links: `taxwithsero.com ↗`
 
 **Whenwise** · chip `In progress`
@@ -158,7 +160,7 @@ Links: `taxwithsero.com ↗`
 > entirely on the phone. My favorite constraint so far: version one makes zero
 > network calls. Nothing leaves your iPhone because nothing can.
 
-Fact line: `On TestFlight · SwiftUI, StoreKit 2, Next.js`
+Fact line: `On TestFlight · SwiftUI, Swift engine, StoreKit 2, Next.js`
 Links: `whenwiseapp.com ↗`
 
 ## The teal band (the one peak)
@@ -172,6 +174,13 @@ learning.`
 Sub: `Every project on this page runs on something I had to pick up along the
 way: new frameworks, new models, new rules. I intend to keep working like
 that.`
+
+## Fact line policy (2026-07-04, per Garret: list ALL the tools)
+
+Fact lines carry every load-bearing platform, framework, and infrastructure
+piece verified in the codebase (e.g. Sentari runs on Python + Google Cloud
+Run). Data feeds and small libraries stay out; if it hosts, stores, computes,
+or bills, it's listed. Re-verify against the repos when a project evolves.
 
 ## Projects
 
@@ -190,7 +199,8 @@ H2: `Other things I've made.`
 > green-lit an official pilot for this fall, and the plan from there is simple:
 > take what we learn to more campuses.
 
-Fact line: `Next.js, Supabase, multi-school architecture`
+Fact line: `Next.js, Supabase, Tailwind, Upstash rate limiting, multi-school
+architecture`
 Label above the small cards: `Smaller experiments`
 
 **Parking spot detection**
@@ -199,7 +209,7 @@ Label above the small cards: `Smaller experiments`
 > the campus safety office. The groundwork is there for a real-time
 > availability app.
 
-Fact line: `Oct to Dec 2025 · PyTorch Lightning, computer vision`
+Fact line: `Oct to Dec 2025 · PyTorch Lightning, CNNs, computer vision`
 
 **Altcoin sniper**
 > A Solana scanner that notices brand-new Raydium pools the moment they appear,
@@ -207,7 +217,8 @@ Fact line: `Oct to Dec 2025 · PyTorch Lightning, computer vision`
 > everything that looks untradable. Mostly an excuse to get very comfortable
 > with asyncio and WebSockets.
 
-Fact line: `Jul to Oct 2025 · Python, Helius WebSockets`
+Fact line: `Jul to Oct 2025 · Python, asyncio, Helius WebSockets, Solana
+JSON-RPC`
 
 **Patents strip**
 Label: `Also, two patents.`

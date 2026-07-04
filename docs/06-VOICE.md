@@ -14,8 +14,13 @@ tone. If copy on the page differs from this deck, one of them is wrong.
    "world-class", or any word Garret would not say out loud.
 6. Numbers live inside sentences ("a little over 800 points"), never in stat
    blocks with count-ups.
-7. It is fine to be quietly proud ("used nationwide") and fine to admit smallness
-   ("my little app company"). The mix is the voice.
+7. It is fine to be quietly proud ("used nationwide") and fine to admit being
+   early ("the portfolio is young"). The mix is the voice.
+8. Casual, never cute or dramatic. Rejected on those grounds: "my little app
+   company", "family is everything to me", "the reason I build anything at
+   all", "I'm the new person in the practice". When the copy is about Garret
+   inside a group, write the group in (the ~40-person cohort). Basketball is
+   real but not a headline piece of his identity; adaptability is.
 
 ## Nav
 
@@ -27,10 +32,10 @@ contact heading; founder flagged three uses as redundant.)
 
 - H1: `Hi, I'm Garret.`
 - Lede: `I'm a software engineer at Capgemini in the Cloud & Custom Applications
-  practice. Most nights and weekends I'm building BerryBox, my app company: four
-  iOS apps so far, each one an excuse to learn something I didn't know.`
-  (Never "my little app company": humble, not cute. Always "practice", never
-  "team".)
+  practice. Outside of work I'm building BerryBox, my app company: four iOS apps
+  so far, each one an excuse to learn something I didn't know.`
+  (Never "my little app company" and never "most nights and weekends". BerryBox
+  is NOT bolded. Always "practice", never "team".)
 - Fact line (small): `Chicago, IL[, 9:41 am local] · Hamilton College '26 ·
   computer science and mathematics` (the local time is a JS enhancement,
   Chicago timezone; absent without JS)
@@ -55,10 +60,12 @@ HP's location is **Spring, TX**.
 **Capgemini, full time** (label: `Software engineer · Cloud & Custom
 Applications practice · 2026 to present · Chicago, IL`)
 
-> My current chapter, and it just started: I accepted the return offer after my
-> internship and joined full time in Chicago. I'm the new person in the practice
-> right now, which I don't mind saying, because the whole point of consulting is
-> that the problems keep getting bigger. Ask me again in a year.
+> I interned in 2025, took the return offer, and started full time in Chicago
+> this year with a cohort of about forty. The work is enterprise AI systems,
+> and it's just getting going.
+
+(Tone rule from Garret: never self-centering like "I'm the new person in the
+practice"; he is one of a ~40-person cohort and the copy should reflect that.)
 
 **HP** (own box, HP logo; label: `Consultant, through Capgemini · Summer 2025 ·
 nationwide deployment`)
@@ -145,10 +152,15 @@ Links: `whenwiseapp.com ↗`
 
 ## The teal band (the one peak)
 
-Serif, white: `If the app and the website ever disagree by a dollar, the build
-fails.`
-Sub: `Sero and Whenwise pin their web calculators to the same tested engines
-that power the apps. I like software you can hold to its word.`
+Theme chosen by Garret (2026-07-04): adaptability, because tools and tech
+change fast. Not basketball (not a huge piece of his identity), not the
+build-fails line (too random).
+
+Serif, white: `The tools will change again next year. The job is to keep
+learning.`
+Sub: `Every project on this page runs on something I had to pick up along the
+way: new frameworks, new models, new rules. I intend to keep working like
+that.`
 
 ## Projects
 
@@ -199,8 +211,11 @@ basketball.
 
 **Row 1, family** (photo: assets/img/family.jpg, caption `Mom, Dad, and me`)
 H3: `Family first.`
-> Family is everything to me. I'm an only child, and the people closest to me
-> are the reason I build anything at all.
+> I'm an only child, so it's always been the three of us. They're my two
+> favorite people.
+
+(Tone rule: "family is everything" and "the reason I build anything at all"
+were rejected as too dramatic. Plain and warm, never sentimental.)
 
 **Row 2, basketball** (photo right on desktop, caption `Number 12, Hamilton
 Continentals`)

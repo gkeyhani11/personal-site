@@ -466,35 +466,83 @@ html.no-js .switcher__tabs { display: none; }
   .about-row--flip .about-row__copy { order: 2; }
 }
 
+/* ============================================================
+   Phones (≤719.5px): the mobile remodel. docs/07-MOBILE.md.
+   Desktop and tablet rendering are untouched by these rules.
+   ============================================================ */
 @media (max-width: 719.5px) {
-  .nav__links {
-    position: fixed; inset: 64px 0 0 0;
-    background: var(--paper);
-    border-top: 1px solid var(--hairline);
-    flex-direction: column; justify-content: center; gap: 2rem;
-    transform: translateX(100%);
-    transition: transform 250ms ease;
-  }
-  html.no-js .nav__links { position: static; transform: none; flex-direction: row; gap: 1rem; }
-  .nav__links.is-open { transform: none; }
-  .nav__links a:not(.btn) { font-size: 1.25rem; }
-  .nav__toggle { display: grid; gap: 6px; background: none; border: 0; padding: 12px; }
-  .nav__toggle span { width: 22px; height: 2px; background: var(--ink); border-radius: 2px; transition: transform 200ms; }
-  .nav__toggle[aria-expanded="true"] span:first-child { transform: translateY(4px) rotate(45deg); }
-  .nav__toggle[aria-expanded="true"] span:last-child { transform: translateY(-4px) rotate(-45deg); }
-  html.no-js .nav__toggle { display: none; }
+  /* --- Nav: wordmark + the one pill, no hamburger (parent pattern) --- */
+  .nav__toggle { display: none; }
+  .nav__links { display: flex; align-items: center; }
+  .nav__links a:not(.btn) { display: none; }
+  .nav__wordmark { font-size: 1.25rem; white-space: nowrap; }
+  .nav__links .btn--small { white-space: nowrap; min-height: 40px; padding: 0.35rem 1.05rem; font-size: 0.9375rem; }
 
-  .logos__row { gap: 1.8rem 2.4rem; }
+  /* --- Hero: profile pattern, portrait becomes a leading avatar --- */
+  .hero { padding-top: 2.75rem; }
+  .hero__grid { gap: 0; }
+  .hero__portrait {
+    order: -1;
+    width: 96px; max-width: 96px;
+    border-radius: 22px;
+    margin-bottom: 1.4rem;
+  }
+  .hero__portrait a { display: block; }
+  .hero__portrait img {
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    object-position: 50% 18%;
+  }
+  .hero__actions { margin-top: 1.6rem; }
+  .hero .factline { margin-top: 1.8rem; }
+  .factline__part { display: block; line-height: 1.9; }
+  .factline__dot { display: none; }
+
+  /* --- Logo strip: deliberate 2x2 grid --- */
+  .logos__row {
+    display: grid; grid-template-columns: 1fr 1fr;
+    gap: 1.8rem 1.2rem; justify-items: center; align-items: center;
+    max-width: 22rem; margin: 0 auto;
+  }
   .logos__img--capgemini { height: 30px; }
   .logos__img--hp { height: 38px; }
   .logos__img--opervu { height: 38px; }
   .logos__img--hamilton { height: 27px; }
+
+  /* --- Work cards --- */
   .job { padding: 1.6rem 1.4rem; }
+  .job__head { gap: 0.9rem; margin-bottom: 0.8rem; }
+
+  /* --- Apps: equal 2x2 tabs, centered phone --- */
+  .switcher__tabs {
+    display: grid; grid-template-columns: 1fr 1fr; gap: 0.6rem;
+  }
+  .tab { justify-content: center; padding: 0.5rem 0.6rem; }
+  .panel { gap: 2rem; }
+  .panel__visual { justify-content: center; }
+  .phone { width: min(280px, 100%); }
+
+  /* --- Projects --- */
   .moveon__body { padding: 1.6rem 1.4rem; }
   .proj { padding: 1.6rem 1.4rem; }
-}
-@media (prefers-reduced-motion: reduce) {
-  .nav__links { transition: none; }
+
+  /* --- About: contained photos, stacked school block --- */
+  .about-row { gap: 1.6rem; margin-top: 2.2rem; }
+  .about__photo img { max-height: 420px; object-fit: cover; }
+  .about__school { flex-direction: column; align-items: flex-start; gap: 0.9rem; }
+
+  /* --- Contact: full-width stacked actions --- */
+  .contact__actions { flex-direction: column; align-items: stretch; gap: 0.8rem; }
+  .contact__actions .btn { width: 100%; }
+
+  /* --- Footer: centered, padded targets --- */
+  .footer__inner { flex-direction: column; text-align: center; gap: 1rem; }
+  .footer nav { justify-content: center; gap: 0.4rem 0.4rem; }
+  .footer nav a { padding: 0.6rem 0.7rem; }
+
+  /* --- Comfortable thumb targets on link rows --- */
+  .panel__links { gap: 0.4rem 1.4rem; }
+  .panel__links a, .textlink { padding-top: 0.5rem; padding-bottom: 0.5rem; display: inline-block; }
 }
 
 /* ---------- 16. Print ---------- */

@@ -33,10 +33,11 @@ contact heading; founder flagged three uses as redundant.)
 
 - H1: `Hi, I'm Garret.`
 - Lede: `I'm a software engineer at Capgemini in the Cloud & Custom Applications
-  practice. Outside of work I'm building a few things. The main one is BerryBox,
+  practice. Outside of work I'm building a few things. One of them is BerryBox,
   my app company: four iOS apps so far, with more on the way.`
-  ("A few things" is deliberate: BerryBox must not read as the only thing.
-  MoveOn is on a startup path, and Vitell will be added to the site later.
+  ("A few things" and "one of them" are deliberate: BerryBox is neither the
+  only thing nor the main thing. MoveOn and Vitell get equal attention and may
+  have more long-term potential; Vitell joins the site later.
   Never "my little app company", "most nights and weekends", or "an excuse to
   learn something I didn't know". BerryBox is NOT bolded. Always "practice",
   never "team".)

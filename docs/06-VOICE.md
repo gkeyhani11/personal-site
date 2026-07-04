@@ -18,9 +18,10 @@ tone. If copy on the page differs from this deck, one of them is wrong.
    early ("the portfolio is young"). The mix is the voice.
 8. Casual, never cute or dramatic. Rejected on those grounds: "my little app
    company", "family is everything to me", "the reason I build anything at
-   all", "I'm the new person in the practice". When the copy is about Garret
-   inside a group, write the group in (the ~40-person cohort). Basketball is
-   real but not a headline piece of his identity; adaptability is.
+   all", "I'm the new person in the practice", "an excuse to learn something I
+   didn't know". Do not mention the intern cohort either; at a 400k-person
+   company it reads as filler. Basketball is real but not a headline piece of
+   his identity; adaptability is.
 
 ## Nav
 
@@ -33,9 +34,10 @@ contact heading; founder flagged three uses as redundant.)
 - H1: `Hi, I'm Garret.`
 - Lede: `I'm a software engineer at Capgemini in the Cloud & Custom Applications
   practice. Outside of work I'm building BerryBox, my app company: four iOS apps
-  so far, each one an excuse to learn something I didn't know.`
-  (Never "my little app company" and never "most nights and weekends". BerryBox
-  is NOT bolded. Always "practice", never "team".)
+  so far, with more on the way.`
+  (Never "my little app company", "most nights and weekends", or "an excuse to
+  learn something I didn't know". BerryBox is NOT bolded. Always "practice",
+  never "team".)
 - Fact line (small): `Chicago, IL[, 9:41 am local] · Hamilton College '26 ·
   computer science and mathematics` (the local time is a JS enhancement,
   Chicago timezone; absent without JS)
@@ -60,12 +62,14 @@ HP's location is **Spring, TX**.
 **Capgemini, full time** (label: `Software engineer · Cloud & Custom
 Applications practice · 2026 to present · Chicago, IL`)
 
-> I interned in 2025, took the return offer, and started full time in Chicago
-> this year with a cohort of about forty. The work is enterprise AI systems,
-> and it's just getting going.
+> I interned in 2025, accepted the full time offer, and joined the Chicago
+> office this year. The work is enterprise AI systems, and I'm excited to get
+> started.
 
-(Tone rule from Garret: never self-centering like "I'm the new person in the
-practice"; he is one of a ~40-person cohort and the copy should reflect that.)
+(Tone rules from Garret: never self-centering like "I'm the new person in the
+practice", and also do NOT mention the intern cohort; it is not significant at
+a 400k-person company. The message is simply: accepted the full time offer,
+excited to get started.)
 
 **HP** (own box, HP logo; label: `Consultant, through Capgemini · Summer 2025 ·
 nationwide deployment`)
@@ -86,8 +90,10 @@ Houston, TX`)
 > Where the Capgemini story started. LAUNCH is the firm's early-career program:
 > my summer was the HP engagement above, plus a case study with the other
 > interns on AI-driven customer satisfaction for a food delivery client. I
-> learned what consulting actually looks like from the inside, presented to real
-> stakeholders, and left with a return offer.
+> learned what consulting actually looks like from the inside, worked with real
+> engineering teams, and presented to real clients.
+
+(This paragraph's closing sentence is Garret's own wording; keep it.)
 
 **OperVu Surgical Technologies** (label row: `Software engineer intern ·
 Oct 2024 to Apr 2025 · Palo Alto, CA`)
@@ -117,6 +123,7 @@ Tabs: `BeNow` `Sentari` `Sero` `Whenwise` (status chip inside each panel).
 Fact line: `Thousands of downloads · Python, Cloud Run, Firebase, Azure OpenAI,
 React Native`
 Links: `App Store ↗` `benowtrader.com ↗`
+Screen: the dashboard (total balance, top assets), per Garret's reference.
 
 **Sentari** · chip `In App Review`
 (Corrected 2026-07-04: not a reskin, never "same backend". The product is the
@@ -211,8 +218,7 @@ basketball.
 
 **Row 1, family** (photo: assets/img/family.jpg, caption `Mom, Dad, and me`)
 H3: `Family first.`
-> I'm an only child, so it's always been the three of us. They're my two
-> favorite people.
+> I'm an only child, so it's just the three of us. I'm beyond grateful to have them in my life.
 
 (Tone rule: "family is everything" and "the reason I build anything at all"
 were rejected as too dramatic. Plain and warm, never sentimental.)

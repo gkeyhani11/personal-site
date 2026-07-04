@@ -10,8 +10,8 @@
 > - `benow-icon.png` now comes from the CURRENT app codebase:
 >   "NewsTrader 1.1.3/NewsTraderApp/assets/images/icon.png" (violet robot face).
 >   The newspaper-robot icon in "BeNow Materials" is outdated; never use it.
-> - `benow-ui.webp` (v2.3) is the "Deploy Your Agent" screen extracted from
->   BeNowWebsite/beacon-trader-suite/public/website3.png (gold-bezel mockup;
+> - `benow-ui.webp` (v2.5) is the dashboard screen extracted from
+>   BeNowWebsite/beacon-trader-suite/public/website4.png, the dashboard (gold-bezel mockup;
 >   screen rect ~(54,28)-(1096,2170), center-cropped to device ratio).
 >   IMG_7036.PNG (old dashboard) and the website1 signals screen are retired.
 > - `sentari-ui.webp` (v2.3) is the **Bot Lab build tab**

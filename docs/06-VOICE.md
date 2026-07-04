@@ -186,8 +186,8 @@ or bills, it's listed. Re-verify against the repos when a project evolves.
 
 H2: `Other things I've made.`
 
-**MoveOn** (featured card with team photo; chip: `Piloting at Hamilton, fall
-2026`. MoveOn is an institutional tool with momentum, never "just a box".)
+**MoveOn** (featured card with team photo; chip: `Piloting at Hamilton
+College, fall 2026`, Garret's wording. MoveOn is an institutional tool with momentum, never "just a box".)
 > My friends and I won a hackathon, and then we kept building. MoveOn is a
 > reuse platform made for institutions: each campus gets its own feed where
 > students list and claim things instead of throwing them out, earning points
@@ -242,9 +242,11 @@ were rejected as too dramatic. Plain and warm, never sentimental.)
 Continentals`)
 H3: `Then basketball.`
 > I played four years at Hamilton, three of them as a starter, and scored a
-> little over 800 points while double majoring in computer science and
-> mathematics. Practice taught me the thing I lean on most as an engineer: show
-> up every day and trust the reps.
+> little over 800 points while studying computer science and math. Basketball
+> taught me habits that have benefited me well beyond the court.
+
+(Never "double majoring": math was a minor. "Practice taught me... trust the
+reps" was retired with the rest of the reps framing.)
 
 School line: `B.A., 2022 to 2026, concentrated in computer science and math.
 Dean's List all eight semesters.` (Hamilton awards the B.A.; math was a minor;
@@ -254,8 +256,10 @@ Dean's List all eight semesters.` (Hamilton awards the B.A.; math was a minor;
 
 H2: `Say hello.` (the only "say hello" on the page)
 Sub: `The inbox is always open. Tell me what you're building, or just say hi.`
-Buttons: primary `keyhanigarret@gmail.com` (mailto), secondary `Copy address`.
-No resume link anywhere on the site.
+Buttons: primary `keyhanigarret@gmail.com` (mailto), secondary `Copy address`,
+secondary `LinkedIn` (https://www.linkedin.com/in/garret-keyhani/).
+The hero headshot links to LinkedIn too, and the footer carries a LinkedIn
+link after the product links. No resume link anywhere on the site.
 
 ## Footer
 

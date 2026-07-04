@@ -9,6 +9,14 @@
 >   `aria-selected`) and the cross-fade is instant under reduced motion.
 > - Deploy: git history was rewritten (orphan commit) before the v2 push so the
 >   old resume PDF is not retrievable from the repo; the GitHub push is forced.
+>
+> **v2.1: regenerating the Sero screenshot** (when the app UI changes): create a
+> scratch xcodegen project whose only target wraps the local SeroUI package,
+> with a ShotRoot view that mirrors RootScreen.main but sets
+> `AppState.hasOnboarded = true` (sample data drives the engine numbers). Build
+> for an iPhone simulator, `simctl status_bar override --time 9:41`, launch,
+> `simctl io <udid> screenshot`, then convert to 750w WebP q88 as
+> assets/img/sero-ui.webp. Never modify the App3 repo for this.
 
 ## Build order
 1. **Repo hygiene** — `git init` (standalone repo; home-dir repo must not own this),

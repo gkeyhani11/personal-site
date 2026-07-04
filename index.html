@@ -39,6 +39,7 @@
     "worksFor": { "@type": "Organization", "name": "Capgemini" },
     "alumniOf": { "@type": "CollegeOrUniversity", "name": "Hamilton College" },
     "email": "mailto:keyhanigarret@gmail.com",
+    "address": { "@type": "PostalAddress", "addressLocality": "Chicago", "addressRegion": "IL" },
     "url": "https://garretkeyhani.com/",
     "sameAs": [
       "https://benowtrader.com/",
@@ -62,7 +63,7 @@
         <a href="#apps">Apps</a>
         <a href="#projects">Projects</a>
         <a href="#about">About</a>
-        <a class="btn btn--primary btn--small" href="mailto:keyhanigarret@gmail.com">Say hello</a>
+        <a class="btn btn--primary btn--small" href="mailto:keyhanigarret@gmail.com">Get in touch</a>
       </div>
       <button class="nav__toggle" id="nav-toggle" aria-expanded="false" aria-controls="site-nav" aria-label="Menu">
         <span></span><span></span>
@@ -78,16 +79,16 @@
         <div class="hero__copy">
           <h1>Hi, I&rsquo;m Garret.</h1>
           <p class="lede">
-            I&rsquo;m a software engineer at Capgemini on the Cloud &amp; Custom
-            Applications team. Most nights and weekends I&rsquo;m building
-            <strong>BerryBox</strong>, my little app company: four iOS apps so far,
-            each one an excuse to learn something I didn&rsquo;t know.
+            I&rsquo;m a software engineer at Capgemini in the Cloud &amp; Custom
+            Applications practice. Most nights and weekends I&rsquo;m building
+            <strong>BerryBox</strong>, my app company: four iOS apps so far, each
+            one an excuse to learn something I didn&rsquo;t know.
           </p>
           <div class="hero__actions">
-            <a class="btn btn--primary" href="mailto:keyhanigarret@gmail.com">Say hello</a>
+            <a class="btn btn--primary" href="mailto:keyhanigarret@gmail.com">Email me</a>
             <a class="textlink" href="#apps">See the apps ↓</a>
           </div>
-          <p class="factline">Houston, TX · Hamilton College &rsquo;26 · computer science and mathematics</p>
+          <p class="factline">Chicago, IL<span id="local-time"></span> · Hamilton College &rsquo;26 · computer science and mathematics</p>
         </div>
         <figure class="hero__portrait card-frame">
           <img src="assets/img/headshot.jpg" alt="Garret Keyhani" width="800" height="974" fetchpriority="high">
@@ -100,10 +101,10 @@
       <div class="rail">
         <p class="logos__label">Some places my work has shown up</p>
         <ul class="logos__row">
-          <li><img src="assets/img/capgemini.svg" alt="Capgemini" class="logos__img logos__img--capgemini" width="220" height="50" loading="lazy"></li>
-          <li><img src="assets/img/hp.svg" alt="HP" class="logos__img logos__img--hp" width="64" height="64" loading="lazy"></li>
-          <li><img src="assets/img/opervu.png" alt="OperVu, Inc." class="logos__img logos__img--opervu" width="150" height="67" loading="lazy"></li>
-          <li><img src="assets/img/hamilton.svg" alt="Hamilton College" class="logos__img logos__img--hamilton" width="190" height="48" loading="lazy"></li>
+          <li><a href="https://www.capgemini.com/" target="_blank" rel="noopener" aria-label="Capgemini"><img src="assets/img/capgemini.svg" alt="Capgemini" class="logos__img logos__img--capgemini" width="220" height="50" loading="lazy"></a></li>
+          <li><a href="https://www.hp.com/" target="_blank" rel="noopener" aria-label="HP"><img src="assets/img/hp.svg" alt="HP" class="logos__img logos__img--hp" width="64" height="64" loading="lazy"></a></li>
+          <li><a href="https://www.opervu.com/" target="_blank" rel="noopener" aria-label="OperVu"><img src="assets/img/opervu.png" alt="OperVu, Inc." class="logos__img logos__img--opervu" width="150" height="67" loading="lazy"></a></li>
+          <li><a href="https://www.hamilton.edu/" target="_blank" rel="noopener" aria-label="Hamilton College"><img src="assets/img/hamilton.svg" alt="Hamilton College" class="logos__img logos__img--hamilton" width="190" height="48" loading="lazy"></a></li>
         </ul>
       </div>
     </section>
@@ -115,25 +116,53 @@
 
         <article class="job card">
           <div class="job__head">
-            <img src="assets/img/capgemini.svg" alt="" class="job__logo job__logo--capgemini" width="170" height="39" loading="lazy">
-            <p class="label">Software engineer · Cloud &amp; Custom Applications · 2025 to present · Houston, TX</p>
+            <img src="assets/img/capgemini.svg" alt="Capgemini" class="job__logo job__logo--capgemini" width="170" height="39" loading="lazy">
+            <p class="label">Software engineer · Cloud &amp; Custom Applications practice · 2026 to present · Chicago, IL</p>
           </div>
           <p>
-            I interned here in the summer of 2025 and liked the team enough to come
-            back full time. Our client is HP, and the project I&rsquo;m proudest of is
-            an <strong>agentic AI system for their customer support portal</strong>: it digs
-            through case history to help support agents troubleshoot, and it&rsquo;s
-            now used nationwide.
+            My current chapter, and it just started: I accepted the return offer
+            after my internship and joined full time in Chicago. I&rsquo;m the new
+            person in the practice right now, which I don&rsquo;t mind saying,
+            because the whole point of consulting is that the problems keep getting
+            bigger. Ask me again in a year.
+          </p>
+        </article>
+
+        <article class="job card">
+          <div class="job__head">
+            <img src="assets/img/hp.svg" alt="HP" class="job__logo job__logo--hp" width="44" height="44" loading="lazy">
+            <p class="label">Consultant, through Capgemini · Summer 2025 · nationwide deployment</p>
+          </div>
+          <p>
+            The client work I&rsquo;m proudest of so far: an <strong>agentic AI system
+            for HP&rsquo;s customer support portal</strong>. It digs through case history
+            to help support agents troubleshoot faster, and it&rsquo;s now used
+            nationwide.
           </p>
           <ul class="quietlist">
-            <li>Built the backend on Azure OpenAI, Azure AI Search, and Semantic Kernel, served as an API through an MCP server.</li>
-            <li>Presented a case study on AI and customer satisfaction to the client.</li>
+            <li>Backend on Azure OpenAI, Azure AI Search, and Semantic Kernel, served as an API through an MCP server.</li>
+            <li>Case history in, grounded answers out: retrieval and embeddings tuned on real support data.</li>
           </ul>
         </article>
 
         <article class="job card">
           <div class="job__head">
-            <img src="assets/img/opervu.png" alt="" class="job__logo job__logo--opervu" width="120" height="54" loading="lazy">
+            <img src="assets/img/capgemini.svg" alt="Capgemini" class="job__logo job__logo--capgemini" width="170" height="39" loading="lazy">
+            <p class="label">LAUNCH intern · Jun to Aug 2025 · Houston, TX</p>
+          </div>
+          <p>
+            Where the Capgemini story started. LAUNCH is the firm&rsquo;s
+            early-career program: my summer was the HP engagement above, plus a
+            case study with the other interns on AI-driven customer satisfaction
+            for a food delivery client. I learned what consulting actually looks
+            like from the inside, presented to real stakeholders, and left with a
+            return offer.
+          </p>
+        </article>
+
+        <article class="job card">
+          <div class="job__head">
+            <img src="assets/img/opervu.png" alt="OperVu" class="job__logo job__logo--opervu" width="120" height="54" loading="lazy">
             <p class="label">Software engineer intern · Oct 2024 to Apr 2025 · Palo Alto, CA</p>
           </div>
           <p>
@@ -151,9 +180,10 @@
       <div class="rail">
         <h2>The apps.</h2>
         <p class="sectionintro">
-          BerryBox LLC is the one-person company behind everything below. Each app
-          started as a question I couldn&rsquo;t put down. Pick one and I&rsquo;ll
-          show you around.
+          BerryBox LLC is the one-person company behind everything below. The
+          portfolio is young, four apps and counting, and each one started as a
+          question I couldn&rsquo;t put down. Pick one and I&rsquo;ll show you
+          around.
         </p>
 
         <div class="switcher" id="switcher">
@@ -193,7 +223,7 @@
                   </p>
                 </div>
                 <div class="panel__visual">
-                  <div class="phone"><img src="assets/img/benow-ui.webp" alt="The BeNow dashboard listing live and simulated trades with their profits" width="750" height="1531" loading="lazy"></div>
+                  <div class="phone"><img src="assets/img/benow-ui.webp" alt="The BeNow signals screen showing market sentiment and news-driven buy and sell signals" width="750" height="1565" loading="lazy"></div>
                 </div>
               </section>
 
@@ -233,13 +263,7 @@
                   </p>
                 </div>
                 <div class="panel__visual">
-                  <div class="phone phone--sero">
-                    <div class="sero-screen">
-                      <img src="assets/img/sero-mark.svg" alt="" width="96" height="96">
-                      <p class="sero-screen__name">Sero</p>
-                      <p class="sero-screen__tag">Know what to set aside.</p>
-                    </div>
-                  </div>
+                  <div class="phone"><img src="assets/img/sero-ui.webp" alt="The Sero home screen showing what is safe to spend after setting aside taxes" width="750" height="1631" loading="lazy"></div>
                 </div>
               </section>
 
@@ -330,8 +354,9 @@
           <p class="label">Also, two patents.</p>
           <p>
             A basketball training pad that reads your dribble and coaches you back
-            (US 11,565,160, issued when I was 19), and a self-cleaning gutter system
-            (application pending). Long stories. Happy to tell either one.
+            (<a href="https://patents.google.com/patent/US11565160B2/en" target="_blank" rel="noopener">US 11,565,160</a>,
+            issued when I was 19), and a self-cleaning gutter system (application
+            pending). Long stories. Happy to tell either one.
           </p>
         </aside>
       </div>
@@ -339,29 +364,40 @@
 
     <!-- ===================== ABOUT ===================== -->
     <section class="band band--card" id="about">
-      <div class="rail about__grid">
-        <figure class="about__photo card-frame">
-          <img src="assets/img/basketball.jpg" alt="Garret Keyhani, number 12 for Hamilton, contesting a rebound at the rim" width="1071" height="1459" loading="lazy">
-          <figcaption class="label">Number 12, Hamilton Continentals</figcaption>
-        </figure>
-        <div class="about__copy">
-          <h2>Off the computer.</h2>
-          <p>
-            I played four years of basketball at Hamilton, three of them as a
-            starter, and scored a little over 800 points while double majoring in
-            computer science and mathematics. Practice taught me the thing I lean on
-            most as an engineer: show up every day and trust the reps.
-          </p>
-          <div class="about__school">
-            <img src="assets/img/hamilton.svg" alt="Hamilton College" width="150" height="38" loading="lazy">
-            <p class="label">B.S. computer science and B.S. mathematics, 2022 to 2026.<br>Dean&rsquo;s List all eight semesters.</p>
-          </div>
-          <div class="about__family">
-            <div class="family-tile" aria-hidden="true"><span>Family photo soon</span></div>
+      <div class="rail">
+        <h2>Off the computer.</h2>
+
+        <div class="about-row">
+          <figure class="about__photo card-frame">
+            <img src="assets/img/family.jpg" alt="A young Garret with his mom and dad, all smiling" width="1400" height="1613" loading="lazy">
+            <figcaption class="label">Mom, Dad, and me</figcaption>
+          </figure>
+          <div class="about-row__copy">
+            <h3>Family first.</h3>
             <p>
               Family is everything to me. I&rsquo;m an only child, and the people
               closest to me are the reason I build anything at all.
             </p>
+          </div>
+        </div>
+
+        <div class="about-row about-row--flip">
+          <figure class="about__photo card-frame">
+            <img src="assets/img/basketball.jpg" alt="Garret Keyhani, number 12 for Hamilton, contesting a rebound at the rim" width="1071" height="1459" loading="lazy">
+            <figcaption class="label">Number 12, Hamilton Continentals</figcaption>
+          </figure>
+          <div class="about-row__copy">
+            <h3>Then basketball.</h3>
+            <p>
+              I played four years at Hamilton, three of them as a starter, and
+              scored a little over 800 points while double majoring in computer
+              science and mathematics. Practice taught me the thing I lean on most
+              as an engineer: show up every day and trust the reps.
+            </p>
+            <div class="about__school">
+              <img src="assets/img/hamilton.svg" alt="Hamilton College" width="150" height="38" loading="lazy">
+              <p class="label">B.S. computer science and B.S. mathematics, 2022 to 2026.<br>Dean&rsquo;s List all eight semesters.</p>
+            </div>
           </div>
         </div>
       </div>
@@ -391,7 +427,7 @@
         <a href="https://whenwiseapp.com/" target="_blank" rel="noopener">Whenwise</a>
         <a href="https://www.campusmoveon.com/" target="_blank" rel="noopener">MoveOn</a>
       </nav>
-      <p class="footer__note">Plain HTML and CSS, written by hand. Thanks for scrolling all the way down.</p>
+      <p class="footer__note">Thanks for scrolling all the way down.</p>
     </div>
   </footer>
 

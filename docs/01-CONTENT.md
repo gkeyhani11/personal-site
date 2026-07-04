@@ -7,7 +7,8 @@ this file.** Copy on the page may be tightened but never inflated.
 | Fact | Value | Source |
 |---|---|---|
 | Name | Garret Keyhani | résumé |
-| Current role | Software Engineer, Capgemini — Cloud & Custom Applications practice (accepted full-time offer out of the LAUNCH internship) | user note 2026-07-04 |
+| Current role | Software Engineer, Capgemini — Cloud & Custom Applications **practice** (never "team"); full time since 2026, **based in Chicago, IL**, and the role just started (be transparent about that) | user notes 2026-07-04 |
+| Location | **Chicago, IL** (the LAUNCH internship was Houston; do not present Houston as current) | user note 2026-07-04 |
 | Company (founder) | BerryBox LLC — builds iOS + web apps | guide |
 | Email | keyhanigarret@gmail.com | résumé |
 | Education | Hamilton College — B.S. Computer Science, B.S. Mathematics, 2022–2026 | résumé |
@@ -19,9 +20,17 @@ this file.** Copy on the page may be tightened but never inflated.
 
 ## Experience
 
-### Capgemini — Software Engineer (current) · Houston, TX
-*Cloud & Custom Applications practice. Joined full-time after the LAUNCH internship
-(Jun–Aug 2025) earned a return offer. Client: HP.*
+*Site structure (per founder, 2026-07-04): four separate boxes, newest first:
+(1) Capgemini full time, Chicago, 2026 to present, just started, say so plainly;
+(2) HP as its own box with the HP logo, framed as consultant work through
+Capgemini (the agentic-AI support-portal content lives here);
+(3) Capgemini LAUNCH internship, Houston, Jun to Aug 2025, reframed around the
+program, the intern case study, and the return offer;
+(4) OperVu internship.*
+
+### Capgemini — Software Engineer (current) · Chicago, IL
+*Cloud & Custom Applications practice. Joined full time in 2026 after the LAUNCH
+internship (Jun–Aug 2025, Houston) earned a return offer. Client work to date: HP.*
 - Designed an **agentic AI solution for HP's customer support portal** — case-history-driven
   troubleshooting for support agents — **deployed nationwide**.
 - Built the chatbot backend: **Azure OpenAI** (embedding + chat), **Azure AI Search**

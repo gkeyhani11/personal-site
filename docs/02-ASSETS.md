@@ -1,13 +1,23 @@
 # 02 — Asset Manifest
 
-> **v2 changes (2026-07-04):** the exhibit now shows raw app UI in one CSS device
-> frame, so `benow-shot.jpg` and `sentari-shot.jpg` (marketing slides) are
-> replaced by `benow-ui.png` (source: "BeNow Materials/IMG_7036.PNG", the real
-> dashboard) and `sentari-ui.png` (source: sentari-web/public/app-home.png).
-> Sero renders as a splash-style brand screen inside the frame (CSS + mark, no
-> raster). Fonts change to Source Serif 4 (600) + Inter; Fraunces and JetBrains
-> Mono files are removed. The resume PDF is removed from the site and from git
-> history. Favicon and og.jpg regenerate in the teal/paper style.
+> **v2 changes (2026-07-04):** the exhibit shows raw app UI in one CSS device
+> frame (`sentari-ui.webp` source: sentari-web/public/app-home.png). Fonts
+> change to Source Serif 4 (600) + Inter; Fraunces and JetBrains Mono files are
+> removed. The resume PDF is removed from the site and from git history.
+> Favicon and og.jpg regenerate in the teal/paper style.
+>
+> **v2.1 asset corrections (founder review, same day):**
+> - `benow-icon.png` now comes from the CURRENT app codebase:
+>   "NewsTrader 1.1.3/NewsTraderApp/assets/images/icon.png" (violet robot face).
+>   The newspaper-robot icon in "BeNow Materials" is outdated; never use it.
+> - `benow-ui.webp` is the screen content extracted (alpha-bbox crop, 6.2% bezel
+>   inset) from BeNowWebsite/beacon-trader-suite/public/website1.png, the
+>   current Signals screen. IMG_7036.PNG (old dashboard) is outdated.
+> - `sero-ui.webp` is a REAL simulator capture of SeroUI's Home screen, taken by
+>   a scratch harness app wrapping the SeroUI package with onboarding
+>   pre-completed (recipe in 05-BUILD-QA). The Sero repo was not modified.
+> - `family.jpg` added (source: assets/Photos/family.heic, EXIF stripped),
+>   used in About, placed BEFORE basketball.
 
 Every visual the site uses: source path on disk → processed file in `assets/img/`.
 All processing via `sips` (macOS). Web sizes keep total page weight sensible; originals

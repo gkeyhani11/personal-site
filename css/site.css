@@ -135,13 +135,22 @@ a { color: inherit; }
   border: 1px solid var(--hairline);
   border-radius: var(--radius-card);
   box-shadow: var(--shadow-card);
+  transition: border-color 200ms ease, transform 200ms ease;
 }
+.card:hover { border-color: #D6D2C6; transform: translateY(-2px); }
 .card-frame {
   background: var(--card);
   border: 1px solid var(--hairline);
   border-radius: var(--radius-card);
   box-shadow: var(--shadow-card);
   overflow: hidden;
+}
+/* Photo cards answer the cursor with a slow, quiet zoom. */
+.card-frame img { transition: transform 600ms ease; }
+.card-frame:hover img { transform: scale(1.02); }
+@media (prefers-reduced-motion: reduce) {
+  .card, .card:hover { transition: none; transform: none; }
+  .card-frame img, .card-frame:hover img { transition: none; transform: none; }
 }
 
 .chip {
@@ -229,8 +238,9 @@ ul.quietlist {
   display: flex; align-items: center; justify-content: center;
   gap: clamp(2rem, 6vw, 5rem); flex-wrap: wrap;
 }
+.logos__row a { display: block; border-radius: 8px; }
 .logos__img { filter: grayscale(1); opacity: 0.62; transition: filter 200ms, opacity 200ms; }
-.logos__img:hover { filter: none; opacity: 1; }
+.logos__row a:hover .logos__img, .logos__row a:focus-visible .logos__img { filter: none; opacity: 1; }
 .logos__img--capgemini { height: 40px; width: auto; }
 .logos__img--hp { height: 48px; width: auto; }
 .logos__img--opervu { height: 50px; width: auto; }
@@ -279,21 +289,23 @@ ul.quietlist {
 .panel__copy .factline { margin-top: 1.3rem; }
 .panel__visual { display: flex; justify-content: center; }
 
-/* JS cross-fade: panels stack in one grid cell and fade. No-JS: stacked flow. */
+/* JS cross-fade: panels stack in one grid cell, fade + settle. No-JS: stacked flow. */
 html.js .switcher__panels { display: grid; }
 html.js .switcher__panels .panel {
   grid-area: 1 / 1;
   opacity: 0;
   visibility: hidden;
-  transition: opacity 200ms ease, visibility 0s 200ms;
+  transform: translateY(8px);
+  transition: opacity 220ms ease, transform 220ms ease, visibility 0s 220ms;
 }
 html.js .switcher__panels .panel.is-active {
   opacity: 1;
   visibility: visible;
-  transition: opacity 200ms ease;
+  transform: none;
+  transition: opacity 220ms ease, transform 220ms ease;
 }
 /* Before the script initializes, the first panel is the visible one. */
-html.js .switcher__panels:not(.is-ready) .panel:first-of-type { opacity: 1; visibility: visible; }
+html.js .switcher__panels:not(.is-ready) .panel:first-of-type { opacity: 1; visibility: visible; transform: none; }
 html.no-js .switcher__panels { display: grid; gap: 4rem; }
 html.no-js .switcher__tabs { display: none; }
 @media (prefers-reduced-motion: reduce) {
@@ -313,21 +325,6 @@ html.no-js .switcher__tabs { display: none; }
   width: min(320px, 100%);
 }
 .phone > img { border-radius: 42px; }
-.phone--sero { padding: 0; }
-
-.sero-screen {
-  margin: 13px;
-  border-radius: 42px;
-  background: #2C3FD6;
-  aspect-ratio: 750 / 1580;
-  display: flex; flex-direction: column; align-items: center; justify-content: center;
-  gap: 1rem; text-align: center; padding: 2rem;
-}
-.sero-screen__name {
-  font-family: var(--font-serif); font-weight: 600;
-  font-size: 2.2rem; color: #FFFFFF;
-}
-.sero-screen__tag { color: rgb(255 255 255 / 0.75); font-size: 1rem; }
 
 /* ---------- 11. Teal band ---------- */
 .band--teal { padding-top: clamp(4rem, 9vh, 6.5rem); padding-bottom: clamp(4rem, 9vh, 6.5rem); }
@@ -376,36 +373,32 @@ html.no-js .switcher__tabs { display: none; }
 .patents p:not(.label) { margin-top: 0.5rem; }
 
 /* ---------- 13. About ---------- */
-.about__grid {
+.about-row {
   display: grid;
   grid-template-columns: minmax(0, 4fr) minmax(0, 6fr);
   gap: clamp(2.5rem, 6vw, 5rem);
   align-items: center;
+  margin-top: 2.5rem;
+}
+.about-row--flip { grid-template-columns: minmax(0, 6fr) minmax(0, 4fr); }
+.about-row--flip .about__photo { order: 2; justify-self: end; }
+.about-row--flip .about-row__copy { order: 1; }
+.about-row__copy h3 {
+  font-family: var(--font-serif);
+  font-size: 1.4rem;
+  font-weight: 600;
+  margin-bottom: 0.7rem;
 }
 .about__photo { position: relative; max-width: 420px; }
 .about__photo figcaption {
   padding: 0.8rem 1.2rem;
   border-top: 1px solid var(--hairline);
+  position: relative; z-index: 1; background: var(--card);
 }
-.about__copy > p { margin-top: 1rem; }
 .about__school {
   display: flex; align-items: center; gap: 1.4rem;
   margin-top: 2rem; padding-top: 1.6rem;
   border-top: 1px solid var(--hairline);
-}
-.about__family {
-  display: flex; align-items: center; gap: 1.4rem;
-  margin-top: 1.6rem; padding-top: 1.6rem;
-  border-top: 1px solid var(--hairline);
-}
-.family-tile {
-  flex: none; width: 84px; height: 84px;
-  border: 1.5px dashed var(--hairline);
-  border-radius: 12px;
-  display: grid; place-items: center;
-  padding: 0.5rem; text-align: center;
-  font-size: 0.72rem; font-weight: 500; color: var(--ink-3);
-  line-height: 1.4;
 }
 
 /* ---------- 14. Contact & footer ---------- */
@@ -438,7 +431,9 @@ html.no-js .switcher__tabs { display: none; }
   .moveon { grid-template-columns: 1fr; }
   .moveon__photo img { max-height: 320px; }
   .projgrid { grid-template-columns: 1fr; }
-  .about__grid { grid-template-columns: 1fr; }
+  .about-row, .about-row--flip { grid-template-columns: 1fr; }
+  .about-row--flip .about__photo { order: 1; justify-self: start; }
+  .about-row--flip .about-row__copy { order: 2; }
 }
 
 @media (max-width: 719.5px) {

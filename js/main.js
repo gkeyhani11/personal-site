@@ -64,6 +64,19 @@
     select(tabs[0], false);
   }
 
+  /* ---------- Local time in the fact line ---------- */
+  var timeEl = document.getElementById("local-time");
+  if (timeEl && window.Intl && Intl.DateTimeFormat) {
+    var fmt = new Intl.DateTimeFormat("en-US", {
+      timeZone: "America/Chicago", hour: "numeric", minute: "2-digit"
+    });
+    var tick = function () {
+      timeEl.textContent = ", " + fmt.format(new Date()).toLowerCase() + " local";
+    };
+    tick();
+    setInterval(tick, 30000);
+  }
+
   /* ---------- Copy email ---------- */
   var copyBtn = document.getElementById("copy-email");
   if (copyBtn && navigator.clipboard) {

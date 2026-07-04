@@ -15,7 +15,6 @@ zero build step.
 |---|---|
 | Sentari clears App Review | flip its chip to `Live on the App Store` + add the App Store link (index.html) |
 | Sero / Whenwise launch | same chip flip + App Store links |
-| Family photo ready | replace the dashed placeholder tile in §About |
 | LinkedIn / GitHub URLs | search `TODO(garret)` in index.html (no resume on the site, per Garret) |
 
 Original photos live untouched in `assets/Photos/`; web-optimized copies in `assets/img/`.

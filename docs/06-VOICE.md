@@ -20,17 +20,21 @@ tone. If copy on the page differs from this deck, one of them is wrong.
 ## Nav
 
 Wordmark: `Garret Keyhani` (serif). Links: `Work` `Apps` `Projects` `About`.
-Pill: `Say hello`.
+Pill: `Get in touch`. ("Say hello" appears exactly once on the page, as the
+contact heading; founder flagged three uses as redundant.)
 
 ## Hero
 
 - H1: `Hi, I'm Garret.`
-- Lede: `I'm a software engineer at Capgemini on the Cloud & Custom Applications
-  team. Most nights and weekends I'm building BerryBox, my little app company:
-  four iOS apps so far, each one an excuse to learn something I didn't know.`
-- Fact line (small): `Houston, TX · Hamilton College '26 · computer science and
-  mathematics`
-- Buttons: primary `Say hello` (mailto), text link `See the apps ↓`
+- Lede: `I'm a software engineer at Capgemini in the Cloud & Custom Applications
+  practice. Most nights and weekends I'm building BerryBox, my app company: four
+  iOS apps so far, each one an excuse to learn something I didn't know.`
+  (Never "my little app company": humble, not cute. Always "practice", never
+  "team".)
+- Fact line (small): `Chicago, IL[, 9:41 am local] · Hamilton College '26 ·
+  computer science and mathematics` (the local time is a JS enhancement,
+  Chicago timezone; absent without JS)
+- Buttons: primary `Email me` (mailto), text link `See the apps ↓`
 - Portrait: headshot in a plain white card, hairline border.
 
 ## Logo strip (white band)
@@ -40,20 +44,37 @@ Logos: Capgemini, HP, OperVu, Hamilton College.
 
 ## Work
 
-H2: `Where I've worked.`
+H2: `Where I've worked.` Four boxes, newest first.
 
-**Capgemini** (label row: `Software engineer · Cloud & Custom Applications ·
-2025 to present · Houston, TX`)
+**Capgemini, full time** (label: `Software engineer · Cloud & Custom
+Applications practice · 2026 to present · Chicago, IL`)
 
-> I interned here in the summer of 2025 and liked the team enough to come back
-> full time. Our client is HP, and the project I'm proudest of is an agentic AI
-> system for their customer support portal: it digs through case history to help
-> support agents troubleshoot, and it's now used nationwide.
+> My current chapter, and it just started: I accepted the return offer after my
+> internship and joined full time in Chicago. I'm the new person in the practice
+> right now, which I don't mind saying, because the whole point of consulting is
+> that the problems keep getting bigger. Ask me again in a year.
+
+**HP** (own box, HP logo; label: `Consultant, through Capgemini · Summer 2025 ·
+nationwide deployment`)
+
+> The client work I'm proudest of so far: an agentic AI system for HP's customer
+> support portal. It digs through case history to help support agents
+> troubleshoot faster, and it's now used nationwide.
 
 Quiet bullets:
-- `Built the backend on Azure OpenAI, Azure AI Search, and Semantic Kernel,
-  served as an API through an MCP server.`
-- `Presented a case study on AI and customer satisfaction to the client.`
+- `Backend on Azure OpenAI, Azure AI Search, and Semantic Kernel, served as an
+  API through an MCP server.`
+- `Case history in, grounded answers out: retrieval and embeddings tuned on real
+  support data.`
+
+**Capgemini, LAUNCH internship** (label: `LAUNCH intern · Jun to Aug 2025 ·
+Houston, TX`)
+
+> Where the Capgemini story started. LAUNCH is the firm's early-career program:
+> my summer was the HP engagement above, plus a case study with the other
+> interns on AI-driven customer satisfaction for a food delivery client. I
+> learned what consulting actually looks like from the inside, presented to real
+> stakeholders, and left with a return offer.
 
 **OperVu Surgical Technologies** (label row: `Software engineer intern ·
 Oct 2024 to Apr 2025 · Palo Alto, CA`)
@@ -66,8 +87,10 @@ Oct 2024 to Apr 2025 · Palo Alto, CA`)
 ## Apps (the exhibit)
 
 H2: `The apps.`
-Intro: `BerryBox LLC is the one-person company behind everything below. Each app
-started as a question I couldn't put down. Pick one and I'll show you around.`
+Intro: `BerryBox LLC is the one-person company behind everything below. The
+portfolio is young, four apps and counting, and each one started as a question I
+couldn't put down. Pick one and I'll show you around.`
+(The portfolio will grow; language should always leave room for the next app.)
 
 Tabs: `BeNow` `Sentari` `Sero` `Whenwise` (status chip inside each panel).
 
@@ -151,25 +174,28 @@ Label: `Also, two patents.`
 
 ## About
 
-H2: `Off the computer.`
+H2: `Off the computer.` Two photo rows, family FIRST (founder order), then
+basketball.
 
-> I played four years of basketball at Hamilton, three of them as a starter,
-> and scored a little over 800 points while double majoring in computer science
-> and mathematics. Practice taught me the thing I lean on most as an engineer:
-> show up every day and trust the reps.
-
-School line: `B.S. computer science and B.S. mathematics, Hamilton College,
-2022 to 2026. Dean's List all eight semesters.`
-
-Family line:
+**Row 1, family** (photo: assets/img/family.jpg, caption `Mom, Dad, and me`)
+H3: `Family first.`
 > Family is everything to me. I'm an only child, and the people closest to me
 > are the reason I build anything at all.
 
-(Dashed placeholder tile stays until the family photo exists.)
+**Row 2, basketball** (photo right on desktop, caption `Number 12, Hamilton
+Continentals`)
+H3: `Then basketball.`
+> I played four years at Hamilton, three of them as a starter, and scored a
+> little over 800 points while double majoring in computer science and
+> mathematics. Practice taught me the thing I lean on most as an engineer: show
+> up every day and trust the reps.
+
+School line: `B.S. computer science and B.S. mathematics, 2022 to 2026.
+Dean's List all eight semesters.`
 
 ## Contact
 
-H2: `Say hello.`
+H2: `Say hello.` (the only "say hello" on the page)
 Sub: `The inbox is always open. Tell me what you're building, or just say hi.`
 Buttons: primary `keyhanigarret@gmail.com` (mailto), secondary `Copy address`.
 No resume link anywhere on the site.
@@ -178,5 +204,14 @@ No resume link anywhere on the site.
 
 Left: `© 2026 Garret Keyhani`
 Middle links: BeNow, Sentari, Sero, Whenwise, MoveOn.
-Right: `Plain HTML and CSS, written by hand. Thanks for scrolling all the way
-down.`
+Right: `Thanks for scrolling all the way down.` (No tech-stack or
+"written by hand" notes; founder cut them.)
+
+## Interactivity register (2026-07-04 audit)
+
+Quiet physical responses only, all instant-off under reduced motion:
+cards lift 2px on hover; photo cards zoom 2% over 600ms; app-switcher panels
+fade and settle 8px; logo strip logos are real links that regain color on
+hover or focus; the patent number links to Google Patents; the fact line shows
+live Chicago time when JS is available. Nothing autoplays, nothing moves on
+scroll.

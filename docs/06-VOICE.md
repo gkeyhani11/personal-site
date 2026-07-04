@@ -110,9 +110,10 @@ Oct 2024 to Apr 2025 · Palo Alto, CA`)
 
 H2: `The apps.`
 Intro: `BerryBox LLC is the one-person company behind everything below. The
-portfolio is young, four apps and counting, and each one started as a question I
-couldn't put down. Pick one and I'll show you around.`
-(The portfolio will grow; language should always leave room for the next app.)
+portfolio is young, four apps and counting. I'd love for you to check them out.`
+(The portfolio will grow; language should always leave room for the next app.
+Rejected: "each one started as a question I couldn't put down" and "pick one
+and I'll show you around".)
 
 Tabs: `BeNow` `Sentari` `Sero` `Whenwise` (status chip inside each panel).
 

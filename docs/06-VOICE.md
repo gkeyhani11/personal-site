@@ -44,7 +44,13 @@ Logos: Capgemini, HP, OperVu, Hamilton College.
 
 ## Work
 
-H2: `Where I've worked.` Four boxes, newest first.
+H2: `Where I've worked.` Four boxes, newest first, presented on a **career
+timeline rail** (year labels + hairline + teal markers; all entries visible at
+once). A carousel was researched and rejected: NN/g's carousel findings and the
+Notre Dame click study (1% of visitors click any slide; 84% of those clicks are
+the first slide) mean anything past slide one is effectively invisible, and this
+section is the backbone. The Capgemini card carries a `Current` chip.
+HP's location is **Spring, TX**.
 
 **Capgemini, full time** (label: `Software engineer · Cloud & Custom
 Applications practice · 2026 to present · Chicago, IL`)
@@ -144,19 +150,29 @@ that power the apps. I like software you can hold to its word.`
 
 H2: `Other things I've made.`
 
-**MoveOn** (card with team photo)
-> My friends and I won a hackathon, and then we kept going. MoveOn is a campus
-> reuse platform: students pass things along instead of throwing them out, and
-> earn perks for it.
+**MoveOn** (featured card with team photo; chip: `Piloting at Hamilton, fall
+2026`. MoveOn is an institutional tool with momentum, never "just a box".)
+> My friends and I won a hackathon, and then we kept building. MoveOn is a
+> reuse platform made for institutions: each campus gets its own feed where
+> students list and claim things instead of throwing them out, earning points
+> they can spend on real campus perks.
+>
+> Under the hood it's a full operations tool: an admin dashboard with
+> per-school analytics, a live points economy, moderation and fraud review, and
+> CO2 impact tracking calibrated against EPA lifecycle data. Hamilton College
+> green-lit an official pilot for this fall, and the plan from there is simple:
+> take what we learn to more campuses.
 
-Fact line: `Live at campusmoveon.com · Next.js, Supabase`
+Fact line: `Next.js, Supabase, multi-school architecture`
+Label above the small cards: `Smaller experiments`
 
 **Parking spot detection**
 > Can a campus know where the open parking spots are? I trained a CNN on our
 > security camera footage to find out, with help from Hamilton's president and
-> the campus safety office. If it keeps working, it becomes an app.
+> the campus safety office. The groundwork is there for a real-time
+> availability app.
 
-Fact line: `Oct 2025 to present · PyTorch Lightning, computer vision`
+Fact line: `Oct to Dec 2025 · PyTorch Lightning, computer vision`
 
 **Altcoin sniper**
 > A Solana scanner that notices brand-new Raydium pools the moment they appear,
@@ -190,8 +206,9 @@ H3: `Then basketball.`
 > mathematics. Practice taught me the thing I lean on most as an engineer: show
 > up every day and trust the reps.
 
-School line: `B.S. computer science and B.S. mathematics, 2022 to 2026.
-Dean's List all eight semesters.`
+School line: `B.A., 2022 to 2026, concentrated in computer science and math.
+Dean's List all eight semesters.` (Hamilton awards the B.A.; math was a minor;
+"concentrated in both" is Garret's preferred phrasing. Never two degrees.)
 
 ## Contact
 

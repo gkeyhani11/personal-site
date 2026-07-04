@@ -231,7 +231,7 @@ ul.quietlist {
 .logos { padding-top: 3rem; padding-bottom: 3rem; }
 .logos__label {
   text-align: center;
-  font-size: 0.9375rem; font-weight: 500; color: var(--ink-3);
+  font-size: 0.9375rem; font-weight: 400; color: var(--ink-3);
   margin: 0 auto 1.8rem;
 }
 .logos__row {
@@ -246,12 +246,36 @@ ul.quietlist {
 .logos__img--opervu { height: 50px; width: auto; }
 .logos__img--hamilton { height: 36px; width: auto; }
 
-/* ---------- 9. Work ---------- */
-.job { padding: 2rem 2.2rem; margin-top: 1.8rem; max-width: 56rem; }
+/* ---------- 9. Work: the career timeline ----------
+   Deliberately NOT a carousel: NN/g and the Notre Dame click study show
+   content beyond a carousel's first slide is rarely seen, and this section
+   is the backbone. A year rail keeps all four entries visible in one scan. */
+.jobs { position: relative; display: grid; gap: 1.8rem; margin-top: 1.8rem; }
+.jobs::before {
+  content: ""; position: absolute; left: 112px; top: 14px; bottom: 14px;
+  width: 1px; background: var(--hairline);
+}
+.jobs__row {
+  position: relative;
+  display: grid; grid-template-columns: 80px 1fr; gap: 3rem;
+}
+.jobs__row::before {
+  content: ""; position: absolute; left: 108.5px; top: 2.35rem;
+  width: 8px; height: 8px; border-radius: 50%;
+  background: var(--accent);
+  box-shadow: 0 0 0 4px var(--paper);
+}
+.jobs__year {
+  text-align: right; padding-top: 1.95rem;
+  font-variant-numeric: tabular-nums;
+}
+.job { padding: 2rem 2.2rem; max-width: 56rem; }
 .job__head { display: flex; align-items: center; gap: 1.4rem; flex-wrap: wrap; margin-bottom: 1rem; }
 .job__logo--capgemini { height: 34px; width: auto; }
 .job__logo--opervu { height: 44px; width: auto; }
 .job p { margin-top: 0.4rem; }
+.job__head .label { margin-right: auto; }
+.job__head .chip { flex: none; }
 
 /* ---------- 10. The app switcher ---------- */
 .sectionintro { margin-bottom: 2.5rem; }
@@ -358,7 +382,8 @@ html.no-js .switcher__tabs { display: none; }
 .moveon__body p:not(.label):not(.factline) { margin-top: 1rem; }
 .moveon__body .factline { margin-top: 1.1rem; }
 
-.projgrid { display: grid; grid-template-columns: 1fr 1fr; gap: 1.8rem; margin-top: 1.8rem; }
+.projgrid__label { margin-top: 3rem; }
+.projgrid { display: grid; grid-template-columns: 1fr 1fr; gap: 1.8rem; margin-top: 1rem; }
 .proj { padding: 2rem 2.2rem; }
 .proj h3 { margin-top: 0.5rem; }
 .proj p:not(.label):not(.factline) { margin-top: 0.8rem; font-size: 1.0625rem; }
@@ -423,6 +448,9 @@ html.no-js .switcher__tabs { display: none; }
 
 /* ---------- 15. Responsive ---------- */
 @media (max-width: 1023.5px) {
+  .jobs::before, .jobs__row::before { display: none; }
+  .jobs__row { grid-template-columns: 1fr; gap: 0; }
+  .jobs__year { display: none; }
   .hero__grid { grid-template-columns: 1fr; }
   .hero__portrait { justify-self: start; max-width: 340px; }
   .panel { grid-template-columns: 1fr; gap: 2.2rem; }

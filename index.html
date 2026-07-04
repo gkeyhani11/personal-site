@@ -114,64 +114,79 @@
       <div class="rail">
         <h2>Where I&rsquo;ve worked.</h2>
 
-        <article class="job card">
-          <div class="job__head">
-            <img src="assets/img/capgemini.svg" alt="Capgemini" class="job__logo job__logo--capgemini" width="170" height="39" loading="lazy">
-            <p class="label">Software engineer · Cloud &amp; Custom Applications practice · 2026 to present · Chicago, IL</p>
+        <div class="jobs">
+          <div class="jobs__row">
+            <p class="jobs__year label">2026</p>
+            <article class="job card">
+              <div class="job__head">
+                <img src="assets/img/capgemini.svg" alt="Capgemini" class="job__logo job__logo--capgemini" width="170" height="39" loading="lazy">
+                <p class="label">Software engineer · Cloud &amp; Custom Applications practice · 2026 · Chicago, IL</p>
+                <span class="chip chip--live">Current</span>
+              </div>
+              <p>
+                My current chapter, and it just started: I accepted the return offer
+                after my internship and joined full time in Chicago. I&rsquo;m the new
+                person in the practice right now, which I don&rsquo;t mind saying,
+                because the whole point of consulting is that the problems keep getting
+                bigger. Ask me again in a year.
+              </p>
+            </article>
           </div>
-          <p>
-            My current chapter, and it just started: I accepted the return offer
-            after my internship and joined full time in Chicago. I&rsquo;m the new
-            person in the practice right now, which I don&rsquo;t mind saying,
-            because the whole point of consulting is that the problems keep getting
-            bigger. Ask me again in a year.
-          </p>
-        </article>
 
-        <article class="job card">
-          <div class="job__head">
-            <img src="assets/img/hp.svg" alt="HP" class="job__logo job__logo--hp" width="44" height="44" loading="lazy">
-            <p class="label">Consultant, through Capgemini · Summer 2025 · nationwide deployment</p>
+          <div class="jobs__row">
+            <p class="jobs__year label">2025</p>
+            <article class="job card">
+              <div class="job__head">
+                <img src="assets/img/hp.svg" alt="HP" class="job__logo job__logo--hp" width="44" height="44" loading="lazy">
+                <p class="label">Consultant, through Capgemini · Summer 2025 · Spring, TX</p>
+              </div>
+              <p>
+                The client work I&rsquo;m proudest of so far: an <strong>agentic AI system
+                for HP&rsquo;s customer support portal</strong>. It digs through case history
+                to help support agents troubleshoot faster, and it&rsquo;s now used
+                nationwide.
+              </p>
+              <ul class="quietlist">
+                <li>Backend on Azure OpenAI, Azure AI Search, and Semantic Kernel, served as an API through an MCP server.</li>
+                <li>Case history in, grounded answers out: retrieval and embeddings tuned on real support data.</li>
+              </ul>
+            </article>
           </div>
-          <p>
-            The client work I&rsquo;m proudest of so far: an <strong>agentic AI system
-            for HP&rsquo;s customer support portal</strong>. It digs through case history
-            to help support agents troubleshoot faster, and it&rsquo;s now used
-            nationwide.
-          </p>
-          <ul class="quietlist">
-            <li>Backend on Azure OpenAI, Azure AI Search, and Semantic Kernel, served as an API through an MCP server.</li>
-            <li>Case history in, grounded answers out: retrieval and embeddings tuned on real support data.</li>
-          </ul>
-        </article>
 
-        <article class="job card">
-          <div class="job__head">
-            <img src="assets/img/capgemini.svg" alt="Capgemini" class="job__logo job__logo--capgemini" width="170" height="39" loading="lazy">
-            <p class="label">LAUNCH intern · Jun to Aug 2025 · Houston, TX</p>
+          <div class="jobs__row">
+            <p class="jobs__year label" aria-hidden="true"></p>
+            <article class="job card">
+              <div class="job__head">
+                <img src="assets/img/capgemini.svg" alt="Capgemini" class="job__logo job__logo--capgemini" width="170" height="39" loading="lazy">
+                <p class="label">LAUNCH intern · Jun to Aug 2025 · Houston, TX</p>
+              </div>
+              <p>
+                Where the Capgemini story started. LAUNCH is the firm&rsquo;s
+                early-career program: my summer was the HP engagement above, plus a
+                case study with the other interns on AI-driven customer satisfaction
+                for a food delivery client. I learned what consulting actually looks
+                like from the inside, presented to real stakeholders, and left with a
+                return offer.
+              </p>
+            </article>
           </div>
-          <p>
-            Where the Capgemini story started. LAUNCH is the firm&rsquo;s
-            early-career program: my summer was the HP engagement above, plus a
-            case study with the other interns on AI-driven customer satisfaction
-            for a food delivery client. I learned what consulting actually looks
-            like from the inside, presented to real stakeholders, and left with a
-            return offer.
-          </p>
-        </article>
 
-        <article class="job card">
-          <div class="job__head">
-            <img src="assets/img/opervu.png" alt="OperVu" class="job__logo job__logo--opervu" width="120" height="54" loading="lazy">
-            <p class="label">Software engineer intern · Oct 2024 to Apr 2025 · Palo Alto, CA</p>
+          <div class="jobs__row">
+            <p class="jobs__year label">2024</p>
+            <article class="job card">
+              <div class="job__head">
+                <img src="assets/img/opervu.png" alt="OperVu" class="job__logo job__logo--opervu" width="120" height="54" loading="lazy">
+                <p class="label">Software engineer intern · Oct 2024 to Apr 2025 · Palo Alto, CA</p>
+              </div>
+              <p>
+                OperVu builds computer vision for the operating room. I worked on the ML
+                pipelines that track surgical instruments across multiple cameras so
+                nothing gets left behind after surgery: data labeling, model training,
+                and multi-view integration, all inside a proprietary backend under NDA.
+              </p>
+            </article>
           </div>
-          <p>
-            OperVu builds computer vision for the operating room. I worked on the ML
-            pipelines that track surgical instruments across multiple cameras so
-            nothing gets left behind after surgery: data labeling, model training,
-            and multi-view integration, all inside a proprietary backend under NDA.
-          </p>
-        </article>
+        </div>
       </div>
     </section>
 
@@ -314,26 +329,36 @@
             <img src="assets/img/hackathon.jpg" alt="The four MoveOn founders standing together in a classroom after winning the hackathon" width="1600" height="1200" loading="lazy">
           </figure>
           <div class="moveon__body">
-            <h3>MoveOn <span class="chip chip--live">Live</span></h3>
+            <h3>MoveOn <span class="chip chip--live">Piloting at Hamilton, fall 2026</span></h3>
             <p>
-              My friends and I won a hackathon, and then we kept going. MoveOn is a
-              campus reuse platform: students pass things along instead of throwing
-              them out, and earn perks for it.
+              My friends and I won a hackathon, and then we kept building. MoveOn
+              is a reuse platform made for institutions: each campus gets its own
+              feed where students list and claim things instead of throwing them
+              out, earning points they can spend on real campus perks.
             </p>
-            <p class="factline">Next.js, Supabase</p>
+            <p>
+              Under the hood it&rsquo;s a full operations tool: an admin dashboard
+              with per-school analytics, a live points economy, moderation and
+              fraud review, and CO2 impact tracking calibrated against EPA
+              lifecycle data. Hamilton College green-lit an official pilot for this
+              fall, and the plan from there is simple: take what we learn to more
+              campuses.
+            </p>
+            <p class="factline">Next.js, Supabase, multi-school architecture</p>
             <p class="panel__links"><a href="https://www.campusmoveon.com/" target="_blank" rel="noopener">campusmoveon.com ↗</a></p>
           </div>
         </article>
 
+        <p class="label projgrid__label">Smaller experiments</p>
         <div class="projgrid">
           <article class="card proj">
-            <p class="label">Oct 2025 to present</p>
+            <p class="label">Oct to Dec 2025</p>
             <h3>Parking spot detection</h3>
             <p>
               Can a campus know where the open parking spots are? I trained a CNN on
               our security camera footage to find out, with help from
-              Hamilton&rsquo;s president and the campus safety office. If it keeps
-              working, it becomes an app.
+              Hamilton&rsquo;s president and the campus safety office. The
+              groundwork is there for a real-time availability app.
             </p>
             <p class="factline">PyTorch Lightning, computer vision</p>
           </article>
@@ -396,7 +421,7 @@
             </p>
             <div class="about__school">
               <img src="assets/img/hamilton.svg" alt="Hamilton College" width="150" height="38" loading="lazy">
-              <p class="label">B.S. computer science and B.S. mathematics, 2022 to 2026.<br>Dean&rsquo;s List all eight semesters.</p>
+              <p class="label">B.A., 2022 to 2026, concentrated in computer science and math.<br>Dean&rsquo;s List all eight semesters.</p>
             </div>
           </div>
         </div>

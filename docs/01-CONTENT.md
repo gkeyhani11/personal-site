@@ -11,7 +11,7 @@ this file.** Copy on the page may be tightened but never inflated.
 | Location | **Chicago, IL** (the LAUNCH internship was Houston; do not present Houston as current) | user note 2026-07-04 |
 | Company (founder) | BerryBox LLC — builds iOS + web apps | guide |
 | Email | keyhanigarret@gmail.com | résumé |
-| Education | Hamilton College — B.S. Computer Science, B.S. Mathematics, 2022–2026 | résumé |
+| Education | Hamilton College — **B.A.** (Hamilton awards the B.A.; the résumé's "two B.S." is wrong), 2022–2026. Math was a **minor**, not a second major; Garret's preferred public phrasing is "**concentrated in computer science and math**", which is what the site says. Never claim two degrees. | user correction 2026-07-04 (supersedes résumé) |
 | GPA / honors | 3.70 GPA; **Dean's List 8 of 8 semesters** | guide (supersedes résumé's 6/6) |
 | Basketball | Varsity basketball at Hamilton — **3-year starter, 800+ career points** | guide |
 | Patent (issued) | US Patent No. 11,565,160 (Jan 31 2023) — basketball training pad; controller converts dribbling characteristics into user feedback | résumé |
@@ -103,17 +103,24 @@ internship (Jun–Aug 2025, Houston) earned a return offer. Client work to date:
 - **Repo:** Desktop/App4 (app), Desktop/App4Web (web)
 - **Brand:** "Calm Authority" — teal `#008F76`, paper `#FAFAF8`, serif reveal numbers
 
-### MoveOn — campus reuse platform (SEPARATE FROM BERRYBOX)
+### MoveOn — institutional reuse platform (SEPARATE FROM BERRYBOX; elevated per founder 2026-07-04)
+- **Status:** Hamilton College **green-lit an official pilot for fall 2026**; the plan
+  is to use pilot data to reach other schools. Present MoveOn as an institutional
+  tool with momentum, never as "just a hackathon project."
 - **Origin:** started with friends after **winning a hackathon** (photo: 4-person team)
 - **Tagline (live site):** "Campus giving, reimagined. Give things a second life."
-- **What it is:** Campus-wide reuse platform — students list/claim items in a real-time
-  feed, earn impact points redeemable for campus perks. Admin move-out mode.
+- **What it is:** Multi-school reuse platform — per-campus feeds (school isolation
+  enforced at the database with RLS), real-time messaging, live points economy with
+  admin-controlled earn rates, perks store, badges, leaderboards, CO2 impact tracking
+  calibrated against EPA lifecycle data, Move-Out Mode, full admin dashboard with
+  per-school and cross-school analytics, moderation + fraud review + appeals
+  (see hackathonCC/FEATURES.md).
 - **Stack:** Next.js · Supabase (RLS, triggers, stored procedures) · Tailwind
 - **Links:** `campusmoveon.com` · no logo yet (guide: use placeholder)
 - **Repo:** Desktop/Hackathon/hackathonCC
 
 ## Independent projects (compact cards)
-- **Parking Spot Detection** (Oct 2025–present) — CNN pipeline classifying parking-spot
+- **Parking Spot Detection** (Oct–Dec 2025, wrapped; not ongoing) — CNN pipeline classifying parking-spot
   occupancy from campus CCTV; PyTorch/Lightning; coordinated with Hamilton's President &
   Head of Campus Safety; foundation for a real-time availability app.
 - **Altcoin 'Sniper' Bot** (Jul–Oct 2025) — real-time Solana scanner: watches new Raydium

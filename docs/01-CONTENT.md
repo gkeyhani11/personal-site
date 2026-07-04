@@ -63,18 +63,22 @@ internship (Jun–Aug 2025, Houston) earned a return offer. Client work to date:
   `benowtrader.com`
 - **Repo:** Desktop/NewsTrader 1.1.3 (app), Desktop/BeNowWebsite (web)
 
-### 2. Sentari — crypto trading on autopilot (IN APP REVIEW)
+### 2. Sentari — build your own autotrader (IN APP REVIEW)
+- **CORRECTED 2026-07-04 (founder):** never describe Sentari as "the same backend" or
+  a reskin. It began as an iteration on BeNow but became a different product with a
+  completely new focus: the **Bot Lab**, a no-code, Scratch-inspired strategy builder
+  where users assemble their own crypto autotrader from a curated, finite set of
+  blocks (constraint-as-feature: every buildable bot is valid, bounded, runnable).
+  Signature feature: **mood-adaptive bots** whose aggression flexes live with the
+  Fear & Greed index ("greedier when the market is fearful"). BeNow's strategy
+  survives as one template, "Sentari Classic"; a premium "Sentari Flagship" strategy
+  exists as a one-time purchase. Source: AppVariant/docs/BOT_BUILDER.md.
 - **Status line:** Under Apple review
-- **Tagline (App Store slide / live site):** "Crypto trading on autopilot. Your AI agent
-  reacts to breaking news around the globe." / "Crypto moves on news, not charts."
-- **What it is:** A complete rebrand + elevated front-end on BeNow's proven backend —
-  same signal pipeline and trade engine, zero added infra cost; new identity, IA,
-  onboarding, dashboard. The "flagship reskin-and-rebuild" discipline: backend is sacred,
-  frontend is a clean slate.
-- **Stack:** Expo/React Native · TypeScript · Firebase · same Python/GCP backend
+- **One-liner (vision doc):** "Build a bot that thinks like you."
+- **Stack:** Expo/React Native · TypeScript · Firebase
 - **Links:** `sentaritrader.com`
 - **Repo:** ~/AppVariant (app), Desktop/sentari-web (site)
-- **Brand:** black + white Spartan-helmet mark; cream marketing canvases
+- **Brand:** black + white Spartan-helmet mark; knight artwork for strategy templates
 
 ### 3. Sero — creator tax & income tracker (COMING SOON)
 - **Status line:** Coming soon · targeted at tax season 2027

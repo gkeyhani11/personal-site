@@ -10,9 +10,16 @@
 > - `benow-icon.png` now comes from the CURRENT app codebase:
 >   "NewsTrader 1.1.3/NewsTraderApp/assets/images/icon.png" (violet robot face).
 >   The newspaper-robot icon in "BeNow Materials" is outdated; never use it.
-> - `benow-ui.webp` is the screen content extracted (alpha-bbox crop, 6.2% bezel
->   inset) from BeNowWebsite/beacon-trader-suite/public/website1.png, the
->   current Signals screen. IMG_7036.PNG (old dashboard) is outdated.
+> - `benow-ui.webp` (v2.3) is the "Deploy Your Agent" screen extracted from
+>   BeNowWebsite/beacon-trader-suite/public/website3.png (gold-bezel mockup;
+>   screen rect ~(54,28)-(1096,2170), center-cropped to device ratio).
+>   IMG_7036.PNG (old dashboard) and the website1 signals screen are retired.
+> - `sentari-ui.webp` (v2.3) is the **Bot Lab build tab**
+>   (sentari-web/public/app-build.png, Sentari Classic template), matching the
+>   corrected copy; the app-home screen is retired.
+> - **Every phone screen is exactly 750x1625** (center-crop, WebP q88). Keep
+>   that invariant when adding or replacing screens; the CSS frame also
+>   enforces the ratio via aspect-ratio + object-fit.
 > - `sero-ui.webp` is a REAL simulator capture of SeroUI's Home screen, taken by
 >   a scratch harness app wrapping the SeroUI package with onboarding
 >   pre-completed (recipe in 05-BUILD-QA). The Sero repo was not modified.

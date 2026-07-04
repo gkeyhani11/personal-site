@@ -112,13 +112,17 @@ React Native`
 Links: `App Store ↗` `benowtrader.com ↗`
 
 **Sentari** · chip `In App Review`
-> A second draft of BeNow's face. Same backend, same signal pipeline, not a
-> dollar of new infrastructure: just a calmer, cleaner app on top. The rule I
-> set for myself was simple. The backend is sacred, and the front end is a
-> clean slate.
+(Corrected 2026-07-04: not a reskin, never "same backend". The product is the
+Bot Lab.)
+> Started as an iteration on BeNow and became its own product. The heart of it
+> is the Bot Lab: a no-code builder, loosely inspired by Scratch, where you
+> assemble your own autotrader from a curated set of blocks. My favorite piece
+> is mood-adaptive bots: yours can get greedier when the market is fearful,
+> and more careful when everyone else is greedy.
 
-Fact line: `Expo, TypeScript, Firebase, the same Python backend`
+Fact line: `Expo, TypeScript, Firebase`
 Links: `sentaritrader.com ↗`
+Screen: the Bot Lab build tab (Sentari Classic template).
 
 **Sero** · chip `In progress`
 > For 1099 creators who feel a small jolt of dread every time they get paid.

@@ -348,7 +348,9 @@ html.no-js .switcher__tabs { display: none; }
     inset 0 0 0 1.5px rgb(255 255 255 / 0.09);
   width: min(320px, 100%);
 }
-.phone > img { border-radius: 42px; }
+/* Every screen ships at exactly 750x1625; aspect-ratio guards the frame
+   against any future screenshot that drifts from that size. */
+.phone > img { border-radius: 42px; aspect-ratio: 750 / 1625; object-fit: cover; }
 
 /* ---------- 11. Teal band ---------- */
 .band--teal { padding-top: clamp(4rem, 9vh, 6.5rem); padding-bottom: clamp(4rem, 9vh, 6.5rem); }

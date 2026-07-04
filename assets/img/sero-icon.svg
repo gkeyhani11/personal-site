@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024">
+  <!-- Sero iOS app icon: flat ultramarine field, mark at 58% width, coin white,
+       wedge amber. iOS masks its own corners. Export PNG at 1024 for App Store
+       Connect. Spec: sero-web docs/BRAND.md §3. -->
+  <rect width="1024" height="1024" fill="#2C3FD6"/>
+  <g transform="translate(215 215) scale(9.28)">
+    <g transform="translate(-1.9 0.2)">
+      <path d="M 32 32 L 53.88 34.3 A 22 22 0 1 1 40.95 11.9 Z" fill="#FFFFFF"/>
+      <path d="M 32 32 L 40.95 11.9 A 22 22 0 0 1 53.88 34.3 Z" fill="#F59E0B" transform="translate(3.98 -2.3)"/>
+    </g>
+  </g>
+</svg>

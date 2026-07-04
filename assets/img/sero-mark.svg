@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <!-- Sero "Setaside" mark, two-tone on light. Geometry: docs/BRAND.md §2. -->
+  <g transform="translate(-1.9 0.2)">
+    <path d="M 32 32 L 53.88 34.3 A 22 22 0 1 1 40.95 11.9 Z" fill="#2C3FD6"/>
+    <path d="M 32 32 L 40.95 11.9 A 22 22 0 0 1 53.88 34.3 Z" fill="#F59E0B" transform="translate(3.98 -2.3)"/>
+  </g>
+</svg>

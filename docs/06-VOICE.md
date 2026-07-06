@@ -7,7 +7,9 @@ tone. If copy on the page differs from this deck, one of them is wrong.
 
 1. First person, like Garret is showing a friend around, not presenting.
 2. Humble, friendly, nerdy. Delight comes from specifics, never adjectives.
-3. Sentence case everywhere, headlines may end with a period.
+3. Sentence case everywhere. Section headers never end with a period (founder,
+   2026-07-04). Full-sentence statements (the teal band, body copy) keep normal
+   punctuation.
 4. **No em-dashes, no en-dashes, ever.** Commas, colons, periods, parentheses,
    and the word "to" in ranges.
 5. No exclamation points. No "passionate", "innovative", "leverage" (as a verb),
@@ -31,7 +33,7 @@ contact heading; founder flagged three uses as redundant.)
 
 ## Hero
 
-- H1: `Hi, I'm Garret.`
+- H1: `Glad you're here` (no period; picked 2026-07-04 over "Hi, I'm Garret" and name-only options. The OG card headline matches.)
 - Lede: `I'm a software engineer at Capgemini in the Cloud & Custom Applications
   practice. Outside of work I'm building a few things. One of them is BerryBox,
   my app company: four iOS apps so far, with more on the way.`
@@ -54,7 +56,7 @@ Logos: Capgemini, HP, OperVu, Hamilton College.
 
 ## Work
 
-H2: `Where I've worked.` Four boxes, newest first, presented on a **career
+H2: `Where I've worked` Four boxes, newest first, presented on a **career
 timeline rail** (year labels + hairline + teal markers; all entries visible at
 once). A carousel was researched and rejected: NN/g's carousel findings and the
 Notre Dame click study (1% of visitors click any slide; 84% of those clicks are
@@ -108,7 +110,7 @@ Oct 2024 to Apr 2025 · Palo Alto, CA`)
 
 ## Apps (the exhibit)
 
-H2: `The apps.`
+H2: `The apps`
 Intro: `BerryBox LLC is the one-person company behind everything below. The
 portfolio is young, four apps and counting. I'd love for you to check them out.`
 (The portfolio will grow; language should always leave room for the next app.
@@ -184,7 +186,7 @@ or bills, it's listed. Re-verify against the repos when a project evolves.
 
 ## Projects
 
-H2: `Other things I've made.`
+H2: `Other things I've made`
 
 **MoveOn** (featured card with team photo; chip: `Piloting at Hamilton
 College, fall 2026`, Garret's wording. MoveOn is an institutional tool with momentum, never "just a box".)
@@ -228,11 +230,11 @@ Label: `Also, two patents.`
 
 ## About
 
-H2: `Off the computer.` Two photo rows, family FIRST (founder order), then
+H2: `Off the computer` Two photo rows, family FIRST (founder order), then
 basketball.
 
 **Row 1, family** (photo: assets/img/family.jpg, caption `Mom, Dad, and me`)
-H3: `Family first.`
+H3: `Family first`
 > I'm an only child, so it's just the three of us. I'm beyond grateful to have them in my life.
 
 (Tone rule: "family is everything" and "the reason I build anything at all"
@@ -240,7 +242,7 @@ were rejected as too dramatic. Plain and warm, never sentimental.)
 
 **Row 2, basketball** (photo right on desktop, caption `Number 12, Hamilton
 Continentals`)
-H3: `Then basketball.`
+H3: `Then basketball`
 > I played four years at Hamilton, three of them as a starter, and scored a
 > little over 800 points while studying computer science and math. Basketball
 > taught me habits that have benefited me well beyond the court.
@@ -254,7 +256,7 @@ Dean's List all eight semesters.` (Hamilton awards the B.A.; math was a minor;
 
 ## Contact
 
-H2: `Say hello.` (the only "say hello" on the page)
+H2: `Say hello` (the only "say hello" on the page)
 Sub: `The inbox is always open. Tell me what you're building, or just say hi.`
 Buttons: primary `keyhanigarret@gmail.com` (mailto), secondary `Copy address`,
 secondary `LinkedIn` (https://www.linkedin.com/in/garret-keyhani/).

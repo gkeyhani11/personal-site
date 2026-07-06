@@ -36,11 +36,12 @@ contact heading; founder flagged three uses as redundant.)
 - H1: `Glad you're here` (no period; picked 2026-07-04 over "Hi, I'm Garret" and name-only options. The OG card headline matches.)
 - Lede: `I'm a software engineer at Capgemini in the Cloud & Custom Applications
   practice. Outside of work I'm building a few things. One of them is BerryBox,
-  my app company: four iOS apps so far, with more on the way.`
+  my app portfolio: four iOS apps so far, with more on the way.`
   ("A few things" and "one of them" are deliberate: BerryBox is neither the
   only thing nor the main thing. MoveOn and Vitell get equal attention and may
   have more long-term potential; Vitell joins the site later.
-  Never "my little app company", "most nights and weekends", or "an excuse to
+  Never "my little app company" (BerryBox is "my app portfolio", echoing the
+  Apps section's "the portfolio is young"), "most nights and weekends", or "an excuse to
   learn something I didn't know". BerryBox is NOT bolded. Always "practice",
   never "team".)
 - Fact line (small): `Chicago, IL[, 9:41 am local] · Hamilton College '26 ·

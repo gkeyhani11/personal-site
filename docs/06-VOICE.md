@@ -234,7 +234,7 @@ Label: `Also, two patents.`
 H2: `Off the computer` Two photo rows, family FIRST (founder order), then
 basketball.
 
-**Row 1, family** (photo: assets/img/family.jpg, caption `Mom, Dad, and me`)
+**Row 1, family** (photo: assets/img/family.jpg, caption `Dad, me, and Mom` (left-to-right order in the photo))
 H3: `Family first`
 > I'm an only child, so it's just the three of us. I'm beyond grateful to have them in my life.
 

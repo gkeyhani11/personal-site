@@ -242,7 +242,7 @@ were rejected as too dramatic. Plain and warm, never sentimental.)
 
 **Row 2, basketball** (photo right on desktop, caption `Number 12, Hamilton
 Continentals`)
-H3: `Then basketball`
+H3: `And basketball`
 > I played four years at Hamilton, three of them as a starter, and scored a
 > little over 800 points while studying computer science and math. Basketball
 > taught me habits that have benefited me well beyond the court.
